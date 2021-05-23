@@ -1,0 +1,87 @@
+﻿body {
+    /* 將此取消註解以允許捲動及縮放
+  touch-action: manipulation;
+  */
+    background-color: #f2f2f2;
+    font-family: Microsoft JhengHei;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    
+    text-align:center;
+    font-size:50px;
+}
+
+list {
+    max-width: 100%;
+    width: 550px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new_Todo {
+    font-size: 30px;
+    display: block;
+    width: 30%;
+    border: none;
+}
+
+input{
+    border:none;
+    color:#444;
+    font-size:30px;
+    padding:5px 10px;
+    display:block;
+    position:relative;
+    left:660px;
+    width:100%;
+}
+
+.todo{
+    background-color:#fff;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    width:30%;
+    position:relative;
+    left:660px;
+}
+
+    .todo li {
+        border-top: 1px solid #e5e5e5;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 5px 10px;
+    }
+
+     .todo li.completed {
+         color: #c2c2c2;
+         text-decoration: line-through;
+     }
+
+.changeColor input {
+    border-style: double;
+    width: 10%;
+    position: fixed;
+    left: 1700px;
+    top: 15px;
+}
+
+.light {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.dark {
+    background-color: #333333;
+    h1{
+    color: white;
+        }
+}
