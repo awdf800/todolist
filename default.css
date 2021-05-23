@@ -76,12 +76,22 @@ input{
 
 .light {
     background-color: #f2f2f2;
-    color: black;
+
+    h1{
+        color: black;
+    }
+    .todo{
+        color:black;
+    }
 }
 
 .dark {
     background-color: #333333;
+
     h1{
     color: white;
-        }
+    }
+    .todo {
+    color: black;
+    }
 }
